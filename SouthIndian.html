@@ -1,0 +1,301 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="MenuPage.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <!-- <nav class="navbar bg-inverse fixed-top bg-faded sticky">
+      <div class="row">
+        <div class="col">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#cart"
+          >
+            Cart (<span class="total-count"></span>)</button
+          ><button class="clear-cart btn btn-danger clear">Clear Cart</button>
+        </div>
+      </div>
+    </nav> -->
+    <div class="wrapper">
+      <div class="title">
+        <h4>
+          <!--<span>fresh food for good health</span>-->South Indian Dishes
+        </h4>
+
+        <nav class="navbar bg-inverse fixed-top bg-faded sticky">
+          <div class="row">
+            <div class="col">
+              <button
+                type="button"
+                class="btns"
+                data-toggle="modal"
+                data-target="#cart"
+              >
+                Cart (<span class="total-count"></span>)</button
+              ><!-- <button class="clear-cart btn btn-danger clear">
+                Clear Cart
+              </button> -->
+            </div>
+          </div>
+        </nav>
+        <!---->
+      </div>
+      <div class="menu">
+        <div class="single-menu">
+          <img src="imgs/idli-sambar.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">
+              Idli With Sambar
+              <span>Rs. 60</span>
+            </h4>
+            <p>
+              Idli Sambar is one of the most favourite South Indian dishes we
+              all enjoy. The taste of steamed and soft idli dipped in hot sambar
+              is truly unmatched.
+            </p>
+            <a
+              href="#"
+              data-name="Idli&nbsp;With&nbsp;Sambar"
+              data-price="60"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/vada sambar.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Vada With Sambar<span>Rs. 50</span></h4>
+
+            <p>
+              Crisp vada is soaked in lentil sambar which makes it soft and
+              tender before serving. in addition the sambar vada is topped with
+              finely chopped onions and coconut chutney before serving.
+            </p>
+            <a
+              href="#"
+              data-name="Vada&nbsp;With&nbsp;Sambar"
+              data-price="50"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/onion rava dosa.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Onion Rava Dosa<span>Rs. 70</span></h4>
+            <p>
+              A crisp dosa made with rava an topped with a onion-green chilly
+              mixture. Served with hot bowl of sambhar and coconut chutney.
+            </p>
+            <a
+              href="#"
+              data-name="Onion&nbsp;Rava&nbsp;Dosa"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/masala dosa.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Masala Dosa<span>Rs. 90</span></h4>
+            <p>
+              Masala Dosa is a popular food of south india made from rice,
+              lentils, potato, fenugreek, ghee and curry leaves, and served with
+              chutneys and sambar.
+            </p>
+            <a
+              href="#"
+              data-name="Masala&nbsp;Dosa"
+              data-price="90"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/Rava-Uttapam.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Rava Uthappam<span>Rs. 60</span></h4>
+            <p>
+              Rava uthappam is a ppular South Indian breakfast recipe made using
+              rava, yogurt and veggies. Served with hot sambar and chutney.
+            </p>
+            <a
+              href="#"
+              data-name="Rava&nbsp;Utthappam"
+              data-price="60"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/Rava-Pongal.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Rava Pongal<span>Rs. 70</span></h4>
+            <p>
+              Rava Pongal is a healthy South Indian breakfast recipe made using
+              rava or sooji (semolina) and moong dal. Served with hot sambar and
+              coconut chutney.
+            </p>
+            <a
+              href="#"
+              data-name="Rava&nbsp;Pongal"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/upma sambar.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Upma With Sambar<span>Rs. 70</span></h4>
+            <p>
+              Upma is a very delicious and healthy south indian breakfast made
+              using sooji or chana dal with veggies.served with a bowl of sambar
+              and coconut chutney
+            </p>
+            <a
+              href="#"
+              data-name="Upma&nbsp;With&nbsp;Sambar"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/South Indian thali.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">South Indian Thali<span>Rs. 150</span></h4>
+            <p>
+              This thali includes the combination of tamato rice, deep fried
+              puri, rasam, sambar,sabji, medu vada, mirchi vajji, vegetable
+              bonda, and a dessert.
+            </p>
+            <a
+              href="#"
+              data-name="South&nbsp;Indian&nbsp;Thali"
+              data-price="150"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="cart"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title"
+              id="exampleModalLabel"
+              style="text-align: center; font-size: x-large; color: orangered"
+            >
+              Your Cart
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+              style="color: red"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="show-cart table"></table>
+            <div>Total price:₹<span class="total-cart"></span></div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              style="
+                background-color: red;
+                border: none;
+                font-size: large;
+                color: white;
+                width: 80px;
+                height: 40px;
+                margin: 10px;
+                border-radius: 25px;
+              "
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              style="
+                width: 100px;
+                background-color: orange;
+                border: none;
+                font-size: large;
+                color: white;
+                margin: 10px;
+                width: 100px;
+                height: 40px;
+                border-radius: 25px;
+              "
+              id="check-out"
+            >
+              Check Out
+            </button>
+          </div>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </div>
+    <script src="Menu.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
