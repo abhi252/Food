@@ -1,0 +1,303 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="MenuPage.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <!-- <nav class="navbar bg-inverse fixed-top bg-faded sticky">
+      <div class="row">
+        <div class="col">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#cart"
+          >
+            Cart (<span class="total-count"></span>)</button
+          ><button class="clear-cart btn btn-danger clear">Clear Cart</button>
+        </div>
+      </div>
+    </nav> -->
+    <div class="wrapper">
+      <div class="title">
+        <h4>
+          <!--<span>fresh food for good health</span>-->Famous Odia Dishes
+        </h4>
+
+        <nav class="navbar bg-inverse fixed-top bg-faded sticky">
+          <div class="row">
+            <div class="col">
+              <button
+                type="button"
+                class="btns"
+                data-toggle="modal"
+                data-target="#cart"
+              >
+                Cart (<span class="total-count"></span>)</button
+              ><!-- <button class="clear-cart btn btn-danger clear">
+                Clear Cart
+              </button> -->
+            </div>
+          </div>
+        </nav>
+        <!---->
+      </div>
+      <div class="menu">
+        <div class="single-menu">
+          <img src="imgs/khichdi.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">
+              Khichdi Dalma
+              <span>Rs. 60</span>
+            </h4>
+            <p>
+              Dalma is a chickpea dal from Orissa. This is cooked with
+              vegetables and raw papaya and simmered with a special spice blend
+              and the best combination to eat with dalma is Khechdi or khechri
+              which is an amalgamation of daal (lentils), chawal (rice), ghee
+              (clarified butter) and vegetables.
+            </p>
+            <a
+              href="#"
+              data-name="Khichdi&nbsp;Dalma"
+              data-price="60"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/Pakhala bhata.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Dahi Pakhala<span>Rs. 50</span></h4>
+
+            <p>
+              This is one of the famous cuisine of Odisha. It is healthy and
+              comforting ,as it cools your body from within on a hot summer day.
+            </p>
+            <a
+              href="#"
+              data-name="Dahi&nbsp;Pakhala"
+              data-price="50"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/Dahi-Bara.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Dahi Vada<span>Rs. 70</span></h4>
+            <p>
+              This favorite Dahi Vada or Dahi Bhalla recipe has the softest
+              lentil fritters drenched in creamy yogurt and topped with sweet
+              and spicy chutney's. This popular Indian street food is loved by
+              all and is a perfect inclusion to any festive menu!
+            </p>
+            <a
+              href="#"
+              data-name="Dahi&nbsp;Vada"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/chaula bara1.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Chaula Bara<span>Rs. 90</span></h4>
+            <p>
+              Chaul Bara is a deep-fried snack, These are actually a deep-fried
+              mini rice Vada is served with a spicy and tangy Chutney made up of
+              tamarind, tomato, chilli, and coriander.
+            </p>
+            <a
+              href="#"
+              data-name="Chaula&nbsp;Bara"
+              data-price="90"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/macha ghanta.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Macha Ghanta<span>Rs. 60</span></h4>
+            <p>
+              Macha Ghanta is a typical Oriya dish again.It is one of the fish
+              dishes and it has a typical set of vegetables to be added.Macha
+              ghanta has the additional fish pieces in it.
+            </p>
+            <a
+              href="#"
+              data-name="Macha&nbsp;Ghanta"
+              data-price="60"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/mudhi mansa.jpeg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Mansa Mudhi<span>Rs. 70</span></h4>
+            <p>
+              This is one of the famous dish of North Odisha.This is the
+              combination of Mudhi (puffed rice) and Mansa (Chicken or Mutton
+              Curry).
+            </p>
+            <a
+              href="#"
+              data-name="Mansa&nbsp;Mudhi"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/chungdi malai.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Chungdi Malai<span>Rs. 70</span></h4>
+            <p>
+              It is amalgamation of prawn with ‘Coconut Milk’, ‘Curd’, Whole
+              Indian Spices and Some other commonly used spices too.
+            </p>
+            <a
+              href="#"
+              data-name="Chingudi&nbsp;Malai"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/odia thali.png" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Odia Thali<span>Rs. 150</span></h4>
+            <p>
+              This thali includes the combination of rice,dal, fried
+              pampad,salad,yogurt,achaar,veg curry,veg chips.
+            </p>
+            <a
+              href="#"
+              data-name="Odia&nbsp;Thali"
+              data-price="150"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="cart"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title"
+              id="exampleModalLabel"
+              style="text-align: center; font-size: x-large; color: red"
+            >
+              Your Cart
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+              style="color: red"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="show-cart table"></table>
+            <div>Total price:₹<span class="total-cart"></span></div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              style="
+                background-color: red;
+                border: none;
+                font-size: large;
+                color: white;
+                width: 80px;
+                height: 40px;
+                margin: 10px;
+                border-radius: 25px;
+              "
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              style="
+                width: 100px;
+                background-color: orange;
+                border: none;
+                font-size: large;
+                color: white;
+                margin: 10px;
+                width: 100px;
+                height: 40px;
+                border-radius: 25px;
+              "
+              id="check-out"
+            >
+              Check Out
+            </button>
+          </div>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </div>
+    <script src="cart.js"></script>
+    <script src="Menu.js"></script>
+  </body>
+</html>
