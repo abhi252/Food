@@ -1,0 +1,308 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="MenuPage.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <!-- <nav class="navbar bg-inverse fixed-top bg-faded sticky">
+      <div class="row">
+        <div class="col">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#cart"
+          >
+            Cart (<span class="total-count"></span>)</button
+          ><button class="clear-cart btn btn-danger clear">Clear Cart</button>
+        </div>
+      </div>
+    </nav> -->
+    <div class="wrapper">
+      <div class="title">
+        <h4><!--<span>fresh food for good health</span>-->Italian Dishes</h4>
+
+        <nav class="navbar bg-inverse fixed-top bg-faded sticky">
+          <div class="row">
+            <div class="col">
+              <button
+                type="button"
+                class="btns"
+                data-toggle="modal"
+                data-target="#cart"
+              >
+                Cart (<span class="total-count"></span>)</button
+              ><!-- <button class="clear-cart btn btn-danger clear">
+                Clear Cart
+              </button> -->
+            </div>
+          </div>
+        </nav>
+        <!---->
+      </div>
+      <div class="menu">
+        <div class="single-menu">
+          <img src="imgs/cheese burst pizza.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">
+              Cheese Burst Pizza
+              <span>Rs. 60</span>
+            </h4>
+            <p>
+              The former features crushed red chillis sprinkled over a layer of
+              cheddar cheese sauce and sandwiched between two crispy thin
+              crusts. ... As for the latter, it involves BBQ sauce drizzled over
+              a layer of cheddar cheese sauce instead.
+            </p>
+            <a
+              href="#"
+              data-name="Cheese&nbsp;Burst&nbsp;Pizza"
+              data-price="60"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/margherita pizza.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Margherita Pizza<span>Rs. 50</span></h4>
+
+            <p>
+              Margherita pizza is a typical Neapolitan pizza, made with San
+              Marzano tomatoes, mozzarella cheese, fresh basil, salt and
+              extra-virgin olive oil.
+            </p>
+            <a
+              href="#"
+              data-name="Margherita&nbsp;Pizza"
+              data-price="50"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/minestrone-1.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Minestrone Soup<span>Rs. 70</span></h4>
+            <p>
+              Minestrone Soup Mix is a garden medley blend of tomatoes,
+              potatoes, pinto beans, onions, cabbage, carrots, peas, green beans
+              and garlic. It's delicious served as a soup or when added to your
+              favourite recipes for extra flavour.
+            </p>
+            <a
+              href="#"
+              data-name="Minestrone&nbsp;Soup"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/brushetta.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Bruschetta<span>Rs. 90</span></h4>
+            <p>
+              It is an antipasto (starter dish) from Italy consisting of grilled
+              bread rubbed with garlic and topped with olive oil and salt.
+              Variations may include toppings of tomato, vegetables, beans,
+              cured meat, or cheese.
+            </p>
+            <a
+              href="#"
+              data-name="Bruschetta"
+              data-price="90"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/white sauce pasta.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">White Sauce Pasta<span>Rs. 60</span></h4>
+            <p>
+              White sauce pasta is made up of milk, flour, butter and cheese.
+              Pair it with vegetables, turn it into a creamy casserole or ladle
+              it over seafood or sliced chicken to make its sauce creamy and
+              tasty.
+            </p>
+            <a
+              href="#"
+              data-name="White&nbsp;Sauce&nbsp;Pasta"
+              data-price="60"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/lasagna.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Lasagne<span>Rs. 70</span></h4>
+            <p>
+              Lasagna is a wide, flat sheet of pasta. Lasagna can refer to
+              either the type of noodle or to the typical lasagna dish which is
+              a dish made with several layers of lasagna sheets with sauce and
+              other ingredients, such as meats and cheese, in between the
+              lasagna noodles.
+            </p>
+            <a
+              href="#"
+              data-name="Lasagne"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/spaghetti.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Spaghetti<span>Rs. 70</span></h4>
+            <p>
+              This is a long, thin, solid, cylindrical pasta and is made of
+              milled wheat and water and sometimes enriched with vitamins and
+              minerals. Italian spaghetti is typically made from durum wheat
+              semolina.
+            </p>
+            <a
+              href="#"
+              data-name="Spaghetti"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/mac and cheese.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Mac & Cheese<span>Rs. 150</span></h4>
+            <p>
+              is a dish of cooked macaroni pasta and a cheese sauce, most
+              commonly cheddar. It can also incorporate other ingredients, such
+              as breadcrumbs or meat.
+            </p>
+            <a
+              href="#"
+              data-name="Mac&nbsp;&&nbsp;Cheese"
+              data-price="150"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="cart"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title"
+              id="exampleModalLabel"
+              style="text-align: center; font-size: x-large; color: orangered"
+            >
+              Your Cart
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+              style="color: red"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="show-cart table"></table>
+            <div>Total price:₹<span class="total-cart"></span></div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              style="
+                background-color: red;
+                border: none;
+                font-size: large;
+                color: white;
+                width: 80px;
+                height: 40px;
+                margin: 10px;
+                border-radius: 25px;
+              "
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              style="
+                width: 100px;
+                background-color: orange;
+                border: none;
+                font-size: large;
+                color: white;
+                margin: 10px;
+                width: 100px;
+                height: 40px;
+                border-radius: 25px;
+              "
+              id="check-out"
+            >
+              Check Out
+            </button>
+          </div>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </div>
+    <script src="Menu.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
