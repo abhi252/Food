@@ -1,0 +1,299 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="MenuPage.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <!-- <nav class="navbar bg-inverse fixed-top bg-faded sticky">
+      <div class="row">
+        <div class="col">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#cart"
+          >
+            Cart (<span class="total-count"></span>)</button
+          ><button class="clear-cart btn btn-danger clear">Clear Cart</button>
+        </div>
+      </div>
+    </nav> -->
+    <div class="wrapper">
+      <div class="title">
+        <h4><!--<span>fresh food for good health</span>-->Chinese Dishes</h4>
+
+        <nav class="navbar bg-inverse fixed-top bg-faded sticky">
+          <div class="row">
+            <div class="col">
+              <button
+                type="button"
+                class="btns"
+                data-toggle="modal"
+                data-target="#cart"
+              >
+                Cart (<span class="total-count"></span>)</button
+              ><!-- <button class="clear-cart btn btn-danger clear">
+                Clear Cart
+              </button> -->
+            </div>
+          </div>
+        </nav>
+        <!---->
+      </div>
+      <div class="menu">
+        <div class="single-menu">
+          <img src="imgs/sichuan pork.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">
+              Sichuan Pork
+              <span>Rs. 60</span>
+            </h4>
+            <p>
+              Sichuan pork · 6 small pieces dried cloud ear mushrooms or 4 dried
+              shiitake mushrooms.
+            </p>
+            <a
+              href="#"
+              data-name="Sichuan&nbsp;Pork"
+              data-price="60"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/chowmein.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Chow mein<span>Rs. 50</span></h4>
+
+            <p>
+              Veg chow mein is basically stir fried noodles with lots of
+              veggies. Smooth velvety noodles with crunch from the veggies
+            </p>
+            <a
+              href="#"
+              data-name="Chow&nbsp;Min"
+              data-price="50"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/kung-pao-chicken.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Kung Pao Chicken<span>Rs. 70</span></h4>
+            <p>
+              kung pao chicken is a highly addictive stir-fried chicken with the
+              perfect combination of salty, sweet and spicy flavour!
+            </p>
+            <a
+              href="#"
+              data-name="Kung&nbsp;Pao&nbsp;Chicken"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/kung pao tofu.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Kung Pao Tofu<span>Rs. 90</span></h4>
+            <p>
+              Kung Pao Tofu redefines the term plant-based dinner. With crunchy
+              cashews and lots of veggies doused in a healthy dose of spicy Kung
+              Pao sauce, it’s a vegan dinner that hits the spot.
+            </p>
+            <a
+              href="#"
+              data-name="Kung&nbsp;Pao&nbsp;Tofu"
+              data-price="90"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/spring roll.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Spring Roll<span>Rs. 60</span></h4>
+            <p>
+              Spring rolls are filled with minced vegetables, seafood, poultry,
+              or meat, folded into a food wrapper made from dough or rice paper
+              that is rolled after being folded and is then baked, deep fried,
+              or steamed.
+            </p>
+            <a
+              href="#"
+              data-name="Spring&nbsp;Roll"
+              data-price="60"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/fried rice.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Fried Rice<span>Rs. 70</span></h4>
+            <p>
+              Fried rice is a dish of cooked rice that has been stir-fried in a
+              wok or a frying pan and is usually mixed with other ingredients
+              such as eggs, vegetables, seafood, or meat.
+            </p>
+            <a
+              href="#"
+              data-name="Fried&nbsp;Rice"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/peri peri chicken.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Peri Peri Chicken<span>Rs. 70</span></h4>
+            <p>
+              The peri peri sauce is traditionally made with a fiery pepper from
+              Africa called 'pili'. Chicken breasts marinated in a home made
+              version of this sauce and baked perfect.
+            </p>
+            <a
+              href="#"
+              data-name="Peri&nbsp;Peri&nbsp;Chicken"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/Manchurian.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Manchurian<span>Rs. 70</span></h4>
+            <p>
+              Manchurian is a class of Indian Chinese dishes made by roughly
+              chopping and deep-frying a main ingredient like chicken,
+              cauliflower (gobi), prawns, fish, mutton or paneer cheese and then
+              sautéeing it in a sauce flavored with soy sauce.
+            </p>
+            <a
+              href="#"
+              data-name="Manchurian"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="cart"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title"
+              id="exampleModalLabel"
+              style="text-align: center; font-size: x-large; color: orangered"
+            >
+              Your Cart
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="show-cart table"></table>
+            <div>Total price:₹<span class="total-cart"></span></div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              style="
+                background-color: red;
+                border: none;
+                font-size: large;
+                color: white;
+                width: 80px;
+                height: 40px;
+                margin: 10px;
+                border-radius: 25px;
+              "
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              style="
+                width: 100px;
+                background-color: orange;
+                border: none;
+                font-size: large;
+                color: white;
+                margin: 10px;
+                width: 100px;
+                height: 40px;
+                border-radius: 25px;
+              "
+              id="check-out"
+            >
+              Check Out
+            </button>
+          </div>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </div>
+    <script src="Menu.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
