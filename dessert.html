@@ -1,0 +1,309 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="MenuPage.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <!-- <nav class="navbar bg-inverse fixed-top bg-faded sticky">
+      <div class="row">
+        <div class="col">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#cart"
+          >
+            Cart (<span class="total-count"></span>)</button
+          ><button class="clear-cart btn btn-danger clear">Clear Cart</button>
+        </div>
+      </div>
+    </nav> -->
+    <div class="wrapper">
+      <div class="title">
+        <h4>
+          <!--<span>fresh food for good health</span>-->Sweets And Desserts
+        </h4>
+
+        <nav class="navbar bg-inverse fixed-top bg-faded sticky">
+          <div class="row">
+            <div class="col">
+              <button
+                type="button"
+                class="btns"
+                data-toggle="modal"
+                data-target="#cart"
+              >
+                Cart (<span class="total-count"></span>)</button
+              ><!-- <button class="clear-cart btn btn-danger clear">
+                Clear Cart
+              </button> -->
+            </div>
+          </div>
+        </nav>
+        <!---->
+      </div>
+      <div class="menu">
+        <div class="single-menu">
+          <img src="imgs/icecream.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">
+              Icecream
+              <span>Rs. 60</span>
+            </h4>
+            <p>
+              A rich, sweet, creamy frozen food made from variously flavored
+              cream and milk products churned or stirred to a smooth consistency
+              during the freezing process and often containing gelatin, eggs,
+              fruits, nuts.
+            </p>
+            <a
+              href="#"
+              data-name="Icecream"
+              data-price="60"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/chocolate pastry.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Chocolate Pastry<span>Rs. 50</span></h4>
+
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+              earum, reiciendis asperiores natus perferendis nam explicabo
+              voluptates. Atque veniam totam iste reiciendis ea praesentium
+              laborum accusantium architecto esse, perferendis quod!
+            </p>
+            <a
+              href="#"
+              data-name="Chocolate&nbsp;Pastry"
+              data-price="50"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/malpua.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Malpua<span>Rs. 70</span></h4>
+            <p>
+              Malpua is an Indian pancake-like-dessert which is made of rice
+              flour in oodles of ghee and sugar syrup. The traditional sweet has
+              been a festive staple since eons.
+            </p>
+            <a
+              href="#"
+              data-name="Malpua"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/kheer.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Kheer<span>Rs. 90</span></h4>
+            <p>
+              Kheer, also called payasam, a chilled South Asian dessert made
+              from slow-cooked rice, milk, and sugar, much like a rice pudding.
+              It is typically flavoured with saffron, cardamom, raisins, and/or
+              various nuts, notably pistachios, cashews, and almonds
+            </p>
+            <a
+              href="#"
+              data-name="Kheer"
+              data-price="90"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/Gulab-Jamun.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Gulab Jamun<span>Rs. 60</span></h4>
+            <p>
+              Gulab jamun is an Indian dessert of fried dough balls that are
+              soaked in a sweet, sticky sugar syrup. As per tradition, the syrup
+              has a delicate rose flavour: Gulab means 'rose water' and jamun
+              refers to a berry of a similar size and colour.
+            </p>
+            <a
+              href="#"
+              data-name="Gulab&nbsp;Jamun"
+              data-price="60"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/rasgulla.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Rasgolla<span>Rs. 70</span></h4>
+            <p>
+              Rasgulla refers to a syrupy dessert made from chhenna(cottage
+              cheese), semolina and sugar. It is prepared by kneading chhena
+              (fresh curd cheese) often lightened with a small amount of
+              semolina, and rolling them into small balls.
+            </p>
+            <a
+              href="#"
+              data-name="Rasgolla"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/jalebi.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Jalebi<span>Rs. 70</span></h4>
+            <p>
+              Jalebi is an easy and tasty super popular indian sweet recipe made
+              with grated carrot, milk and sugar. this is one of the easy and
+              tasty dessert recipes which can be prepared and attempted by any
+              enthusiastic cook.
+            </p>
+            <a
+              href="#"
+              data-name="Jalebi"
+              data-price="70"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="imgs/gajar halwa.jpg" alt="" />
+          <div class="menu-content">
+            <h4 class="items-head">Gajar Halwa<span>Rs. 150</span></h4>
+            <p>
+              It is an easy and tasty super popular indian sweet recipe made
+              with grated carrot, milk and sugar. this is one of the easy and
+              tasty dessert recipes which can be prepared and attempted by any
+              enthusiastic cook.
+            </p>
+            <a
+              href="#"
+              data-name="Gajar&nbsp;Halwa"
+              data-price="150"
+              class="add-to-cart btn btn-warning"
+              >Add to cart</a
+            >
+
+            <!--  <button type="button" class="add">Add To Cart</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="cart"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title"
+              id="exampleModalLabel"
+              style="text-align: center; font-size: x-large; color: orangered"
+            >
+              Your Cart
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="show-cart table"></table>
+            <div>Total price:₹<span class="total-cart"></span></div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              style="
+                background-color: red;
+                border: none;
+                font-size: large;
+                color: white;
+                width: 80px;
+                height: 40px;
+                margin: 10px;
+                border-radius: 25px;
+              "
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              style="
+                width: 100px;
+                background-color: orange;
+                border: none;
+                font-size: large;
+                color: white;
+                margin: 10px;
+                width: 100px;
+                height: 40px;
+                border-radius: 25px;
+              "
+              id="check-out"
+            >
+              Check Out
+            </button>
+          </div>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </div>
+    <script src="Menu.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
